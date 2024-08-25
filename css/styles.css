@@ -4,6 +4,35 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  /* padding-left: ;
+  padding-right: ; */
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
 .main-title {
   color: #ffffff;
   font-weight: 700;
