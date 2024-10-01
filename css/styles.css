@@ -42,11 +42,14 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .header {
@@ -222,26 +225,28 @@ ul {
 .team-member {
   display: flex;
   flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-main-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-member-descr {
+  text-align: center;
   display: flex;
   flex-direction: column;
   padding-top: 32px;
   padding-bottom: 32px;
   justify-content: center;
   align-items: center;
-}
-
-.team-main-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 .team-member {
@@ -294,9 +299,7 @@ folio */
 .portfolio-list-item-descr {
   display: flex;
   flex-direction: column;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -319,6 +322,7 @@ folio */
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-desc {
@@ -370,8 +374,7 @@ folio */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .logo .logo-studio-part-footer {
@@ -380,7 +383,7 @@ folio */
 }
 
 .footer-logo {
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
