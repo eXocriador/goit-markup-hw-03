@@ -24,12 +24,18 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
   align-items: center;
 }
 
@@ -52,7 +58,7 @@ img {
   overflow: hidden;
 }
 
-.header {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,12 +141,29 @@ img {
   gap: 40px;
 }
 
-a {
-  text-decoration: none;
+.section-hero {
+  background-color: #2e2f42;
+  height: 600px;
+  display: flex;
 }
 
-ul {
-  list-style: none;
+.hero-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 188px 0;
+}
+
+.hero-main-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .button-order {
@@ -152,6 +175,11 @@ ul {
   line-height: 150%;
   letter-spacing: 0.04em;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .button-order:hover,
@@ -338,31 +366,6 @@ folio */
 /* #endregion Portfolio */
 
 /* #region background-color */
-.section-hero {
-  background-color: #2e2f42;
-  height: 600px;
-  display: flex;
-}
-
-.hero-items {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.main-title {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 107%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  width: 496px;
-  margin-bottom: 48px;
-}
 
 /* #endregion background-color */
 
