@@ -100,6 +100,7 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-links-list {
@@ -372,7 +373,7 @@ folio */
   align-items: flex-start;
 }
 
-.web-studio-logo-footer {
+.footer-container a {
   display: inline-block;
   margin-bottom: 16px;
 }
