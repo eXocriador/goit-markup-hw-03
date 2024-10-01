@@ -113,11 +113,6 @@ ul {
   color: #404bbf;
 }
 
-.address-list-container {
-  display: flex;
-  flex-direction: row;
-}
-
 .address-list-item {
   font-style: normal;
   color: #434455;
