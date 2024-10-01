@@ -376,11 +376,6 @@ folio */
   align-items: flex-start;
 }
 
-.footer-container > a {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
 .web-studio-logo-footer {
   display: inline-block;
   margin-bottom: 16px;
