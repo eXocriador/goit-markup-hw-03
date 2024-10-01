@@ -370,12 +370,6 @@ folio */
   padding: 100px 0;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .web-studio-logo-footer {
   display: inline-block;
   margin-bottom: 16px;
