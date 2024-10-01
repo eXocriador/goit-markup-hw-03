@@ -58,12 +58,15 @@ ul {
   overflow: hidden;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 72px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-links-container {
@@ -72,7 +75,7 @@ ul {
   align-items: center;
 }
 
-.logo {
+.web-studio-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -80,20 +83,18 @@ ul {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* text-decoration: none; */
 }
 
-.logo .logo-studio-part-header {
+.web-studio-logo-header {
+  margin-right: 76px;
+}
+
+.web-studio-logo-part-header {
   color: #2e2f42;
   font-family: inherit;
 }
 
-.nav-links-container .web-studio-logo {
-  margin-right: 76px;
-}
-
 .nav-links {
-  /* text-decoration: none; */
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -117,13 +118,9 @@ ul {
   flex-direction: row;
 }
 
-.address-list {
+.address-list-item {
   font-style: normal;
-}
-
-.address-list-link {
   color: #434455;
-  /* text-decoration: none; */
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -134,7 +131,7 @@ ul {
   color: #404bbf;
 }
 
-.address-list-links {
+.address-list {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -145,6 +142,7 @@ ul {
   background-color: #2e2f42;
   height: 600px;
   display: flex;
+  padding: 188px 0;
 }
 
 .hero-items {
@@ -152,7 +150,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 188px 0;
 }
 
 .hero-main-title {
@@ -371,23 +368,23 @@ folio */
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 100px 0;
 }
 
-.logo .logo-studio-part-footer {
-  color: #f4f4fd;
-  font-family: inherit;
-}
-
-.footer-logo {
+.web-studio-logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.web-studio-logo-footer-part {
+  color: #f4f4fd;
+  font-family: inherit;
 }
 
 .footer-text {
