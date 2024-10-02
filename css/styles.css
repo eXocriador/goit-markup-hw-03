@@ -94,12 +94,14 @@ ul {
   font-family: inherit;
 }
 
-.nav-links {
+.nav-links,
+.nav-links-item:visited {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .nav-links-item {
